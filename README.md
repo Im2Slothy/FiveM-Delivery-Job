@@ -1,6 +1,6 @@
 # FiveM-Delivery-Job
 
-#Teleport for FiveM, it's super easy to use.
+FiveM Simple Delivery Job
 
 #Installation
 
