@@ -8,7 +8,7 @@ Download the github repository
 
 Drop the files in your [resource] folder
 
-Don't forget add start easytp in your server.cfg file
+Don't forget add start simpleDelivery in your server.cfg file
 
 Configure the script to your liking.
 
