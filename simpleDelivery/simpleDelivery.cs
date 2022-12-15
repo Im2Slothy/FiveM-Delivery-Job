@@ -8,7 +8,6 @@ namespace FiveM_Scripts
     public class DeliveryMission : BaseScript
     {
         private const int DeliveryItemModel = -774712033; // Model of the delivery item
-        private const int RewardAmount = 1000; // Amount of money rewarded for completing the mission
 
         private List<Vector3> _deliveryLocations = new List<Vector3>()
         {
@@ -156,7 +155,7 @@ API.GivePlayerMoney(RewardAmount);
 TriggerEvent("chat:addMessage", new
 {
 color = new[] { 255, 0, 0 },
-args = new[] { "Delivery Mission", $"Congratulations, you have successfully delivered the item to all locations! You have been rewarded with {RewardAmount}$." }
+args = new[] { "Delivery Mission", $"Congratulations, you have successfully delivered the item to all locations!" }
 });
 ResetMission();
 }
